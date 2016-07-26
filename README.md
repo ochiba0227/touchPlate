@@ -1,6 +1,6 @@
-## ƒ^ƒbƒ`”Â‚Ì‚â‚Â
+## ã‚¿ãƒƒãƒæ¿ã®ã‚„ã¤
 
-### ƒtƒ@ƒCƒ‹à–¾
-touchRecord.py ƒ‰ƒYƒpƒC‚Åƒ^ƒbƒ`”Â‚ð‹N“®‚·‚é‚â‚Â
-touchRecord_test.py ƒ[ƒJƒ‹ŠÂ‹«‚ÅƒeƒXƒg‚·‚é‚â‚Â
-Žc‚è‚Í•\Ž¦—pnodeƒAƒvƒŠ
+### ãƒ•ã‚¡ã‚¤ãƒ«èª¬æ˜Ž
+* touchRecord.py ãƒ©ã‚ºãƒ‘ã‚¤ã§ã‚¿ãƒƒãƒæ¿ã‚’èµ·å‹•ã™ã‚‹ã‚„ã¤
+* touchRecord_test.py ãƒ­ãƒ¼ã‚«ãƒ«ç’°å¢ƒã§ãƒ†ã‚¹ãƒˆã™ã‚‹ã‚„ã¤
+* æ®‹ã‚Šã¯è¡¨ç¤ºç”¨nodeã‚¢ãƒ—ãƒª
