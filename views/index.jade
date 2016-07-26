@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  span 100m 自由形@25mプール
+  div(id="time")
+  input(type="button" id="startButton" onclick="myCheck();" value="Start")
+
+  script(src='/socket.io/socket.io.js')
+  script(src='/javascripts/bootstrap.min.js')
+  script(src='/javascripts/jquery-3.1.0.min.js')
+  script(src='/javascripts/mysocket.js')
