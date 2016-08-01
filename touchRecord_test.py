@@ -8,4 +8,4 @@ class Namespace(BaseNamespace):
 
 socketIO = SocketIO('localhost', 3000,Namespace)
 socketIO.emit('touch','touched')
-socketIO.wait(seconds=5)
+socketIO.wait(seconds=3)

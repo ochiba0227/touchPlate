@@ -1,11 +1,33 @@
 extends layout
 
 block content
-  span 100m 自由形@25mプール
-  div(id="time")
-  input(type="button" id="startButton" onclick="myCheck();" value="Start")
+  div(class="container")
+    div(class="myContainer")
+      div(class="row")
+        div(class="col-md-12")
+          h2 200m 自由形
+      div(class="row")
+        div(class="col-md-12")
+          div(id="result_time" class="center-block")
+      div(class="row")
+        div(class="col-md-12")
+          ol(class="records")
+            li(id="record1" class="records") 1.
+            li(id="record2" class="records") 2.
+            li(id="record3" class="records") 3.
+            li(id="record4" class="records") 4.
+      div(class="row")
+        div(class="col-md-12")
+          ol(class="records")
+            li(class="records") 
+            li(class="records") 
+            li(class="records") 
+            li(id="worldRecord" class="records") WR.
+      div(class="row")
+        div(class="col-md-12")
+          input(type="button" id="startButton" onclick="myCheck();" value="Start" class="center-block")
 
   script(src='/socket.io/socket.io.js')
-  script(src='/javascripts/bootstrap.min.js')
   script(src='/javascripts/jquery-3.1.0.min.js')
+  script(src='/javascripts/bootstrap.min.js')
   script(src='/javascripts/mysocket.js')
